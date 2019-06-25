@@ -59,7 +59,7 @@ def retry(random_number):
 def main():
     min_number = get_number("min")
     max_number = get_number("max")
-    random_number = get_random_number(min_number,max_number)
+    random_number = get_random_number(min_number, max_number)
     retry(random_number)
 
 
